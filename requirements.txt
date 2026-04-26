@@ -1,4 +1,3 @@
-aiogram==3.13.1
-aiocryptopay==2.4.0
-aiohttp==3.9.5
-python-dotenv==1.0.0
+aiogram>=3.0.0,<4.0.0
+aiocryptopay>=1.2.0
+python-dotenv>=1.0.0
