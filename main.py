@@ -146,7 +146,7 @@ PRODUCTS = {
     "bank_5": {"name": "Vk Pay", "price": 2.5, "emoji": "5893431652578758294"},
 
 
-    "exch_1": {"name": "Crypto Bot", "price": 5.5, "emoji": "5902002809573740949"},
+    "exch_1": {"name": "Crypto Bot", "price": 8, "emoji": "5902002809573740949"},
     "exch_2": {"name": "Binance", "price": 8.0, "emoji": "5893072412924187198"},
     "exch_3": {"name": "Bybit", "price": 8.0, "emoji": "5893293174243201165"},
     "exch_4": {"name": "Tg Wallet", "price": 6.0, "emoji": "6039641775377748623"},
@@ -155,7 +155,7 @@ PRODUCTS = {
     "exch_7": {"name": "CoinBase", "price": 8.0, "emoji": "5893365724830765382"},
     "exch_8": {"name": "Fragment", "price": 1.8, "emoji": "5893161718179173515"},
     "exch_9": {"name": "Mexc", "price": 8.0, "emoji": "5893168654551355607"},
-    "exch_10": {"name": "Ru Akk Crypto Bot", "price": 9.0, "emoji": "5893365724830765382"},
+    "exch_10": {"name": "Ru Akk Crypto Bot", "price": 10.0, "emoji": "5893365724830765382"},
 
     "man_1": {"name": "Аккаунты с рейтингом", "price": 1.0, "emoji": "5893185207355315979"},
     "man_2": {"name": "Звезды без верификации", "price": 0.5, "emoji": "5893034681636491040"},
@@ -360,7 +360,7 @@ async def cat_exchanges(callback: types.CallbackQuery):
         f'<tg-emoji emoji-id="6039802097916974085">📈</tg-emoji> <b>КриптоБиржи ~ TG Сервисы</b>\n\n'
         f'<tg-emoji emoji-id="5893168654551355607">🔹</tg-emoji> <b>Верификации КриптоБирж и TG Сервисов для расширенных возможностей по доступным ценам и хорошей гарантией</b>\n\n'
         f'<b>Выберите необходимый товар:</b>\n'
-        f'1.<tg-emoji emoji-id="5902002809573740949">💰</tg-emoji> <b>Crypto Bot</b> - <b>5.5$</b>\n'
+        f'1.<tg-emoji emoji-id="5902002809573740949">💰</tg-emoji> <b>Crypto Bot</b> - <b>8$</b>\n'
         f'2.<tg-emoji emoji-id="5893072412924187198">💰</tg-emoji> <b>Binance</b> - <b>8$</b>\n'
         f'3.<tg-emoji emoji-id="5893293174243201165">💰</tg-emoji> <b>Bybit</b> - <b>8$</b>\n'
         f'4.<tg-emoji emoji-id="6039641775377748623">💰</tg-emoji> <b>Tg Wallet</b> - <b>6$</b>\n'
@@ -369,7 +369,7 @@ async def cat_exchanges(callback: types.CallbackQuery):
         f'7.<tg-emoji emoji-id="5893365724830765382">💰</tg-emoji> <b>CoinBase</b> - <b>8$</b>\n'
         f'8.<tg-emoji emoji-id="5893161718179173515">💰</tg-emoji> <b>Fragment</b> - <b>1.8$</b>\n'
         f'9.<tg-emoji emoji-id="5893168654551355607">💰</tg-emoji> <b>Mexc</b> - <b>8$</b>\n'
-        f'10.<tg-emoji emoji-id="5893365724830765382">💰</tg-emoji> <b>Ru Akk Crypto Bot</b> - <b>9$</b>'
+        f'10.<tg-emoji emoji-id="5893365724830765382">💰</tg-emoji> <b>Ru Akk Crypto Bot</b> - <b>10$</b>'
     )
     await callback.message.edit_text(text, reply_markup=products_numbers_kb("exch", 10))
     await callback.answer()
